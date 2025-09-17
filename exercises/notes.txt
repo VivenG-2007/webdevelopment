@@ -1,0 +1,59 @@
+ <div class="ultracompare"><div class="logo1"><img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UC_logo_icon_black_bkg_256x256-1.png" alt="" width="50px" height="50px"></div>
+    <h1>UltraCompare </h1>
+    <div class="microsoft"><img src="microsoft.png" alt="" width="40px"></div>
+    <div class="apple"><img src="apple.png" alt="" width="28px"></div>
+    <div class="linux"><img src="linux.png" alt="" width="32px"></div>
+    </div>
+    <div class="info1">Text, file, folder compare</div>
+    <div class="options">
+        <div class="dow1">Download</div>
+        <div class="learn">Learn more</div>
+    </div>
+
+    <div class="ultracompare"><div class="logo1"><img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UF_logo_icon_black_bkg_256x256-1.png" alt="" width="50px" height="50px"></div>
+    <h1> UltraFinder</h1>
+    <div class="microsoft"><img src="microsoft.png" alt="" width="40px"></div>
+    </div>
+    <div class="info1">Powerful file/folder search</div>
+    <div class="options">
+        <div class="dow1">Download</div>
+        <div class="learn">Learn more</div>
+    </div>
+
+
+
+
+
+     .ultracompare{
+    display: flex;
+    position: sticky;
+    margin-top: 34px;;
+    margin-left: 21vw;
+ }
+ .info1{
+    font-size: x-large;
+    display: inline-flex;
+    position: relative;
+    top: -3vh;
+    left: 25vw;
+ }
+ .logo1{
+    margin-top: 10px;
+ }
+ .dow1{
+    margin-left: 25vw;
+    font-size: large;
+    border-radius: 5px;
+    background-color: #00b6d1;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    width: 99px;
+    text-align: center;
+    margin-right: 20px;
+ }
+
+ .grid{
+    display:grid;
+    temp
+ }

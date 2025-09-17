@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        /*.box:first-child{
+            background-color: red;
+        }
+        .box:nth-child(2){
+            background-color: rgb(24, 255, 197);
+        }
+        .box:last-child{
+            background-color: green;
+        } */
+       /* .boxes *{
+            color: blue;
+            border: 2px solid black;
+            text-align: center;
+        }
+            */
+        .box:nth-child(odd){
+            background-color: aquamarine;
+        }
+        .box::first-letter{
+            color: pink;
+            font-size: 45px      ;
+        }
+        .boxes::before{
+            content: "viven is good";
+        }
+        ::selection{
+            color: aqua;
+            background-color: black;
+        }
+        input::placeholder{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">this is the first box</div>
+        <div class="box">this is a box</div>
+        <div class="box">this is a box</div>
+    </div>
+    <input type="text" placeholder="type your name here">
+</body>
+</html>

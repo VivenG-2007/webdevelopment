@@ -1,0 +1,268 @@
+.nav{
+    display: flex;
+}
+.pic{
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.product{
+    font-size: x-large;
+    margin: 0px;
+    height: 50px;   
+    padding: 0px;     
+    align-items: flex-end; 
+    color: rgb(77, 74, 74); 
+    margin-left: 20px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    padding :25px;
+    font-weight: 5px;
+}
+.download{
+    margin-left: 250px;
+    margin-top: 45px;
+    border: 3px solid black;
+    font-size: large;
+    text-align: center;
+    height: 20px;
+    width: 130px;
+    padding: 10px;
+    padding-top: 11px;
+    font-weight: bold;
+}
+
+.search{
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 55px;
+}
+
+.lang{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: x-large;
+    text-align: center;
+    height: 28px;
+    width: 118px;
+    padding: 10px;
+    color: rgb(77, 74, 74);
+}
+
+.text1{
+    font-size: 10vh;
+    padding: 15vh;
+    text-align: center;
+    color: rgb(43, 41, 41);
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    
+}
+h1{
+    font-weight: bolder;
+    font-size: xxx-large;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+.microsoft{
+    margin-top: 23px;
+}
+.apple{
+    margin-top: 24px;
+}
+.linux{
+    margin-top: 25px;
+}
+.info{
+    font-size: x-large;
+    display: inline-flex;
+    position: relative;
+    top: -3vh;
+    left: 43vw;
+}
+.options{
+    display: flex;
+}
+.dow{
+    margin-left: 43vw;
+    font-size: large;
+    border-radius: 5px;
+    background-color: #00b6d1;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    width: 99px;
+    text-align: center;
+    margin-right: 20px;
+
+}
+.learn{
+    font-size: large;
+    border-radius: 5px;
+    font-weight: bolder;
+    width: 99px;
+    padding: 10px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.ultracompare{
+    display: flex;
+    position: sticky;
+    margin-top: 34px;;
+    margin-left: 21vw;
+ }
+ .info1{
+    font-size: x-large;
+    display: inline-flex;
+    position: relative;
+    top: -3vh;
+    left: 25vw;
+ }
+ .logo1{
+    margin-top: 10px;
+ }
+ .dow1{
+    margin-left: 25vw;
+    font-size: large;
+    border-radius: 5px;
+    background-color: #00b6d1;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    width: 99px;
+    text-align: center;
+    margin-right: 20px;
+ }
+.logo2{
+    margin-top: 10px;
+    margin-left: 121px;
+}
+.info2{
+    font-size: x-large;
+    display: inline-flex;
+    position: relative;
+    top: -3vh;
+    left: 46vw;
+}
+.dow2{
+    margin-left: 20vw;
+    font-size: large;
+    border-radius: 5px;
+    background-color: #00b6d1;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    width: 99px;
+    text-align: center;
+    margin-right: 20px;
+}
+.logo3{
+    margin-top: 10px;
+    margin-left: 235px
+}
+
+.pricing{
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: underline 2px solid black;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.explanation{
+    font-size: x-large;
+    color: rgb(34, 33, 33);
+    margin-left: 15vw;
+}
+.app{
+    margin-top: 50px;
+
+}
+.imp{
+    font-size: xx-large;
+    color: rgb(77, 74, 74);
+    margin-left: 15vw;
+}
+.list{
+    width: 300px;
+    display: block;
+    color: #00b6d1;
+    margin-right: 100px;
+}
+.l1{
+    margin-left: 12vw;
+    padding: 8px;
+    width: 500px;
+    font-size: x-large;
+    list-style-type: circle;
+    margin-right: 100px;
+}
+span{
+    color: black;
+}
+.l2{
+    margin-left: 12vw;
+    padding: 8px;
+    width: 650px;
+    font-size: x-large;
+    list-style-type: circle;    
+}
+.footer{
+    padding: 0px;
+    width: 98vw;
+    height: 70vh;
+    background-color: #f9f9f9;
+    display: flex;
+}
+
+.heading
+{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    color: black;
+}
+
+.context1{
+    font-size: large;
+    color: grey;
+    padding: 50px;
+    margin-left: 10px;
+    height: auto;
+}
+
+.email{
+    border-radius: 20px;
+    border: 1px solid grey;
+    background-color: white;
+    color: rgb(192, 191, 191);
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.subscribe{
+    border-radius: 20px;
+    border: 1px solid #00b6d1;
+    background-color: #00b6d1;
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.endimg{
+    background-color: #f9f9f9;
+    padding-bottom: 75px;
+}
+.last{
+    margin-left: 17vw;
+}

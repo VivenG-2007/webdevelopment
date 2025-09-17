@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 90vh;
+            border: 2px solid red;
+            display: flex;
+            /*justify-content: center;*/
+            flex-direction: row;
+            align-items: center;
+            flex-wrap:wrap;
+            gap: 30px 10px;
+        }
+        .box1{
+            flex-grow: 1;
+            height: 32px;
+            width: 32px;
+            border: 2px solid black;
+            margin: 4px;
+            background-color: blueviolet;
+        }
+        .order1{
+            /*flex-grow: 2;*/
+            align-self: flex-end;
+        }
+        .order2{
+            /*flex-shrink: 10;*/
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1 order1">1</div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1 order2"></div>
+    </div>
+</body>
+</html>
