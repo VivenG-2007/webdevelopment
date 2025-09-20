@@ -1,26 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .box{
-            width: 80vw;
-            height: 80vh;
-            background-color: blue;
-        }
-        .circle{
-            width:100px;
-            height: 100px;
-            border-radius: 70px;
-            background-color: red;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bouncing Forward Circle</title>
+  <style>
+    .box {
+      width: 80vw;
+      height: 80vh;
+      background-color: blue;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start; /* Start from left */
+      overflow: hidden; /* Keeps the circle inside */
+      padding-left: 20px;
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: red;
+      animation: bounceForward 4s cubic-bezier(.28,.84,.42,1) infinite;
+    }
+
+    @keyframes bounceForward {
+      0% {
+        transform: translateX(0) translateY(0);
+      }
+      20% {
+        transform: translateX(100px) translateY(-200px); /* Jump up */
+      }
+      40% {
+        transform: translateX(200px) translateY(0); /* Back to ground */
+      }
+      60% {
+        transform: translateX(300px) translateY(-120px); /* Smaller bounce */
+      }
+      80% {
+        transform: translateX(400px) translateY(0); /* Land again */
+      }
+      100% {
+        transform: translateX(500px) translateY(-60px); /* Final small bounce */
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="box">
-        <div class="circle"></div>
-    </div>
+  <div class="box">
+    <div class="circle"></div>
+  </div>
 </body>
 </html>
