@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+
+.header {
+    display: flex;
+}
+
+.logo1 {
+    width: 115px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+.design {
+    font-size: medium;
+    margin-left:411px;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 549;
+  font-style: normal;
+  padding: 30px;
+    margin-top: 11px;
+    color: #171c21e8;
+}
+.product{
+    font-size: medium;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+  font-optical-sizing: auto;
+  font-display: block;
+  font-synthesis-weight: 500;
+  font-style: normal;
+  padding-top: 30px;
+  padding-right: 30px;
+    margin-top: 11px;
+    color: #171c21e8;
+}
+.box {
+
+    background: linear-gradient(to right, #3b47f8, #9B30FF),
+        linear-gradient(to bottom, rgba(49, 48, 48, 0.4), white);
+    background-blend-mode: overlay;
+    height: 258vh;
+    margin: 0;
+    background-size: cover;
+}
+.signup{
+    margin-left: 317px;
+    margin-top: 29px;
+    font-size: larger;
+    padding: 8px;
+    border: 1px solid rgb(209, 207, 207);
+    height: 24px;
+    width: 81px;
+    text-align: center;
+    border-radius: 11px;
+    margin-right: 9px;
+}
+.login{
+    margin-top: 29px;
+    font-size: larger;
+    padding: 8px;
+    background-color: #8b3dff;
+    color: white;
+    height: 24px;
+    width: 66px;
+    text-align: center;
+    border-radius: 11px;
+}
+.purple{
+    padding-top: 50px;
+    display: flex;
+    margin-bottom: 105px;
+}
+.canva1{
+    width: 800px;
+    margin-top: 85px;
+    margin-left: 118px;
+
+}
+.heart{
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 549;
+  font-style: normal;
+    font-size: 400%;
+    color: white;
+    width: 700px;
+    height: 65px;
+    margin-left: 44px;
+    margin-top: 236px;
+    font-weight: bold;
+}
+.info1{
+    color: #fff;
+    font-size: larger;
+    text-align: center;
+    margin-left: -170px;
+    margin-top: 46px;
+}
+.and{
+    background-color: #FFFFFFE6;
+    color: #171c21e8;
+    width:  225px;
+    height: 22px;
+    font-size: larger;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 51px;
+    margin-top: 43px;
+}
+.info2{
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 223%;
+  text-align: center;
+  margin-bottom: 75px;
+}
+.ai{
+    width: 600px;
+    background-color: white;
+    display: flex;
+    border-radius: 209px;
+    border: 2px solid #d3dcf4;
+    box-shadow: 5px 7px 5px #d3dcf4;
+    margin-left: 199px;
+    width: 1276px;
+    height: 74px;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.try{
+    color: white;
+    font-size: x-large;
+    padding-left: 24px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 13px;
+    margin-right: 26px;
+    background: linear-gradient(to right, #0eafd3, #6230f6);
+    border-radius: 209px;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+  font-optical-sizing: auto;
+}
+.box2{
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+  font-optical-sizing: auto;
+    color: #171c21e8;
+    font-size: larger;
+    padding-left: 55px;
+    padding-right: 53px;
+}
+.box3{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 80vh;
+    display: flex
+;
+}
+.video1{
+    width: 60vw;
+    object-fit: cover;
+    z-index: -2; /* Behind everything */
+    background: rgba(0, 0, 0, 0.5); /* Dark tint (50% opacity) */
+    z-index: -1;
+    border-radius: 30px;
+    margin-right: 30px;
+    height: 80vh;
+
+}
+.info3{
+    position: relative;
+    top: -561px;
+    margin-left: 30px;
+    width: 1007px;
+    font-size: 238%;
+    color: white;
+}
+.generate{
+    width: 108px;
+    padding: 12px;
+    border-radius: 20px;
+    position: relative;
+    top: -522px;
+    left: 30px;
+    background: white;
+}
+.bye{
+    
+    width: 32vw;
+    height: 80vh;
+    border-radius: 30px;
+}
