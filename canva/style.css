@@ -44,7 +44,7 @@
     background: linear-gradient(to right, #3b47f8, #9B30FF),
         linear-gradient(to bottom, rgba(49, 48, 48, 0.4), white);
     background-blend-mode: overlay;
-    height: 258vh;
+    height: 208vh;
     margin: 0;
     background-size: cover;
 }
@@ -172,7 +172,6 @@
     object-fit: cover;
     z-index: -2; /* Behind everything */
     background: rgba(0, 0, 0, 0.5); /* Dark tint (50% opacity) */
-    z-index: -1;
     border-radius: 30px;
     margin-right: 30px;
     height: 80vh;
@@ -200,4 +199,46 @@
     width: 32vw;
     height: 80vh;
     border-radius: 30px;
+}
+.info4{
+    position: relative;
+    top: -561px;
+    margin-left: 2%;
+    width: 484px;
+    font-size: 238%;
+    color: black;
+}
+
+.remove{
+    width: 138px;
+    padding: 12px;
+    border-radius: 20px;
+    position: relative;
+    top: -522px;
+    left: 30px;
+    background: white;
+}
+.pres{
+    margin-left: 30px;
+    width: 32vw;
+    height: 80vh;
+    border-radius: 30px;
+}
+.info5{
+    position: relative;
+    top: -561px;
+    margin-left: 40px;
+    width: 500px;
+    font-size: 238%;
+    color: white;
+}
+.pres1{
+    width: 144px;
+    padding: 12px;
+    border-radius: 20px;
+    position: relative;
+    top: -522px;
+    left: 30px;
+    background: white;
+    margin-left: 10px;
 }
